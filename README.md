@@ -1,2 +1,0 @@
-blankor.github.com
-==================
