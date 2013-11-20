@@ -7,14 +7,14 @@ a:link {text-decoration: none; color:#ccc;blr:expression(this.onFocus=this.blur(
 a:visited {	text-decoration: none;	color: #ccc;}
 a:hover {	text-decoration: none;	color: #fff;}
 a:active {	text-decoration: none;	color: #ffffff;}
-.w640{width:650px;margin:0 auto;}
+.w650{width:650px;margin:0 auto;}
 .w800{width:800px;margin:0 auto;}
 .w960{width:960px;margin:0 auto;}
 .w1000{width:960px;margin:0 auto;}
 .fr{float:right;}
-.bodybg{width: 100%;height: 100%;text-align: left;font-size: 14px;background-image: url(Blankor_files/bg.png);position:relative;}
+.bodybg{width: 100%;height: 100%;text-align: left;font-size: 14px;background-image: url(../images/bg.png);position:relative;}
 .page{}
-.icon{background-image:url(Blankor_files/icon.png);background-repeat:no-repeat;display:inline-block;width:36px;height:30px;}
+.icon{background-image:url(../images/icon.png);background-repeat:no-repeat;display:inline-block;width:36px;height:30px;}
 .title2{font-weight:normal;font-size:24px;padding:10px 0;line-height:40px;}
 /*layer*/
 /*header*/
@@ -25,6 +25,8 @@ a:active {	text-decoration: none;	color: #ffffff;}
 .nav{font-size:18px;font-weight:bold;}
 .nav a{padding:2px 20px;}
 .nav a.curr{color:#1aa1e1;}
+
+.vmiddle{}
 
 .attention{font-size:16px;padding:10px;}
 .attention *{vertical-align:middle;}
@@ -70,8 +72,8 @@ transition: all ease-in-out .15s;
 	letter-spacing:normal;
 	*display:inline;
 	*zoom:1;
-	width:104px;
-	height:104px;	background:#f1f1f1;
+	width:100px;
+	height:100px;	background:#f1f1f1;
 	padding:2px;
 	background-color: #fff;
 	border: 1px solid #ccc;
@@ -82,7 +84,7 @@ transition: all ease-in-out .15s;
 	position:relative;
 }
 .thumb-list li em{display:block;width:100%; text-align:center;padding-top:5px;}
-.thumb-list li img{width:104px;height:104px;}
+.thumb-list li img{width:100px;height:100px;}
 
 #border-radius {-webkit-animation:border-radius 1s ease 0s alternate none infinite;}
 #border-radius {-moz-animation:border-radius 1s ease 0s alternate none infinite;}
@@ -100,4 +102,4 @@ transition: all ease-in-out .15s;
 .pages span.disabled{color:#666;border:1px solid #ccc}
 
 
-.footer{text-align:center;padding:10px 0;color:#666;width:100%;}
+.footer{text-align:center;padding:30px 0;color:#666;width:100%;}
