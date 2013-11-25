@@ -1,6 +1,3 @@
-blankor.github.com
-==================
-
 Blankor
 ===================================
   We are Blankor<br />
