@@ -10,13 +10,14 @@ function autoSize(){
 $(function() {
 	autoSize();
 	$(".nav a").click(function(){
+		var index = $(this).index();
+		var conH = $("."+$(this).attr("id")).height()+50;
+		
+		$(this).addClass("curr").siblings().removeClass("curr");
 		$(".footer").css("position","relative");
 		$(".vmiddle").animate({"padding-top":"5px","padding-bottom":"10px"},300);
-		var conH = $("."+$(this).attr("id")).height()+50;
-		$(".conter").animate({height: conH},300);
-		$(this).addClass("curr").siblings().removeClass("curr");
-		var index = $(this).index();
 		$(".slidew").animate({"margin-left":-index*100+"%"});
+		$(".conter").animate({height: conH},300);
 	});
 	
 	//窗口检测
