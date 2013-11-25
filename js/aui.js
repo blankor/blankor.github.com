@@ -4,7 +4,7 @@ if ('undefined' == typeof(document.body.style.maxHeight)) {
 
 function autoSize(){
 	var H =$(window).height();
-	$(".vmiddle").css({"padding-top":H/2-140,"padding-bottom":H/2-140,});
+	$(".vmiddle").css({"padding-top":H/2-140,"padding-bottom":H/2-140});
 }
 
 $(function() {

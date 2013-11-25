@@ -1,6 +1,9 @@
 @charset "UTF-8";
-/* CSS Document */
- @import url(normalize.css);
+@import url(normalize.css);
+/* CSS Document
+
+*/
+
  /*public*/
  a,area{blr:expression(this.onFocus=this.blur());outline:none; text-decoration:none;}
 a:link {text-decoration: none; color:#ccc;blr:expression(this.onFocus=this.blur());outline:none;}
@@ -13,23 +16,20 @@ a:active {	text-decoration: none;	color: #ffffff;}
 .layout{}
 .icon{background-image:url(../images/icon.png);background-repeat:no-repeat;display:inline-block;width:36px;height:30px;}
 .title2{font-weight:normal;font-size:24px;padding:10px 0;line-height:40px;}
-/*layer*/
+
 /*header*/
-.footer{text-align:center;padding:30px 0;color:#666;width:100%;position:fixed;bottom:0;left:0;}
 .header {overflow:hidden;}
+.attention{font-size:16px;padding:1%;}
+.attention *{vertical-align:middle;}
+.attention a{margin:0 5px;transition: all ease-in-out .15s;-webkit-transition: all ease-in-out .15s;-moz-transition: all ease-in-out .15s;}
+.attention a:hover{background-position:0px -40px;transition: all ease-in-out .15s;-webkit-transition: all ease-in-out .15s;-moz-transition: all ease-in-out .15s;}
 .logo {line-height:2.4;text-align:center;}
 .logo img {vertical-align: middle;width:638px;}
 .nav{font-size:18px;font-weight:bold;width:638px;margin:0 auto;}
 .nav a{padding:2px 15px;}
 .nav a.curr{color:#1aa1e1;}
 
-.vmiddle{}
-
-.attention{font-size:16px;padding:1%;}
-.attention *{vertical-align:middle;}
-.attention a{margin:0 5px;transition: all ease-in-out .15s;-webkit-transition: all ease-in-out .15s;-moz-transition: all ease-in-out .15s;}
-.attention a:hover{background-position:0px -40px;transition: all ease-in-out .15s;-webkit-transition: all ease-in-out .15s;-moz-transition: all ease-in-out .15s;}
-
+/*conter*/
 .conter{background:#fff;width:100%;height:0;overflow:hidden;}
 .product{padding:30px 0;width:50%;float:left;}
 .text-info{position:relative;height:500px;color:#222}
@@ -87,7 +87,10 @@ a:active {	text-decoration: none;	color: #ffffff;}
 .pages span.current{border-color:#D84C31;background:#D84C31;font-weight:bold;color:#fff}
 .pages span.disabled{color:#666;border:1px solid #ccc}
 
+/*footer*/
+.footer{text-align:center;padding:30px 0;color:#666;width:100%;position:fixed;bottom:0;left:0;}
 
+/*Responsive*/
 @media (min-width: 640px) and (max-width:800px) {
 	.w800{width:98%;margin:0 auto;}
 	.logo img,.nav{ width:80%;}
@@ -105,5 +108,5 @@ a:active {	text-decoration: none;	color: #ffffff;}
 	.nav{font-size:14px;}
 }
 
-
+/*test*/
 .fixednum{position:absolute;top:0;right:0;display:none;}
