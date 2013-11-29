@@ -1,6 +1,6 @@
 Blankor
 ===================================
-  We are Blankor<br />
+  We are Blankor[http://www.blankor.com](http://www.blankor.com)<br />
 
   
 Why Blankor ？
@@ -11,4 +11,3 @@ Why Blankor ？
 Blank or …..<br />
 是时候走出来了,给生命一点价值与光彩。
   
-[进入主页](http://www.blankor.com)<br />
