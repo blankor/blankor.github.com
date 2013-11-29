@@ -1,6 +1,7 @@
 Blankor
 ===================================
-  We are Blankor[http://www.blankor.com](http://www.blankor.com)<br />
+  We are Blankor<br />
+  [http://www.blankor.com](http://www.blankor.com)<br />
 
   
 Why Blankor ？
