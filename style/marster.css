@@ -80,6 +80,9 @@ a:active {	text-decoration: none;	color: #ffffff;}
 .border-radius{-webkit-transition: all 0.5s ease 0s;-moz-transition: all 0.5s ease 0s;transition: all 0.5s ease 0s;}
 .border-radius:hover{-webkit-transform: scale(1.2) rotateZ(5deg);-moz-transform: scale(1.2) rotateZ(5deg);transform: scale(1.2) rotateZ(5deg);}
 
+.border-radius2{-webkit-transition: all 0.5s ease 0s;-moz-transition: all 0.5s ease 0s;transition: all 0.5s ease 0s;}
+.border-radius2:hover{-webkit-transform: scale(1.2) rotateZ(20deg);-moz-transform: scale(1.2) rotateZ(20deg);transform: scale(1.2) rotateZ(20deg);}
+
 /*pages*/
 .pages{text-align:center;padding:10px 0;}
 .pages a,.pages span{background:#fff;padding:2px 6px;margin:2px;border:1px solid #999;text-decoration:none;color:#666}
